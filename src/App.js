@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { usercomp } from './apps/user';
+import { users } from './apps/user';
 function hello(user){
  if (user) {
   return <div>
@@ -52,7 +52,9 @@ function App() {
     <p> B: {b} </p>
     <p>Sum: {a+b}</p>
     <p>{c}, {name}</p>
- <usercomp user={user}/>
+
+ <users user={user}/>
+  
     <table>
       <thead>
         <tr>
