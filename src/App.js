@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { users } from './apps/user';
+import Salaries from './apps/salaries';
 function hello(user){
  if (user) {
   return <div>
@@ -55,6 +56,8 @@ function App() {
 
  <users user={user}/>
   
+  <Salaries items={salaries}/>
+
     <table>
       <thead>
         <tr>
