@@ -1,6 +1,12 @@
 import React from "react";
-import { IUser } from "./interfaces/user";
-
+interface IUser {
+    emp_no: string,
+    first_name: string,
+    last_name: string,
+    birth_date:string,
+    gender: string,
+    hire_date: string,
+};
 interface DetailProps {
     user: IUser
 }
